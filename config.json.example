@@ -1,0 +1,19 @@
+{
+  "adb_path": "你使用的模拟器下的adb路径，如D:\\leidian\\LDPlayer9\\adb.exe",
+  "device_id": null,
+  "question_region": {
+    "x1": 1350,
+    "y1": 40,
+    "x2": 1850,
+    "y2": 220,
+    "description": "题目区域坐标 (x1, y1, x2, y2)，请根据实际屏幕调整"
+  },
+  "ocr_settings": {
+    "engine": "easyocr",
+    "language": "ch_sim"
+  },
+  "search_settings": {
+    "top_k": 10,
+    "min_score": 0.3
+  }
+}

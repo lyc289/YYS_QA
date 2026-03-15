@@ -1,0 +1,30 @@
+# 阴阳师答题助手 - 依赖包列表
+
+# OCR识别
+easyocr>=1.7.0          # 默认OCR引擎（中文+英文）
+paddleocr>=2.7.0        # 可选：PaddleOCR引擎（更快但体积大）
+
+# 图片处理
+Pillow>=10.0.0         # PIL图像库
+numpy>=1.24.0          # 数组处理
+
+# 题库导入（可选）
+openpyxl>=3.1.0        # 读取Excel题库文件
+
+# 说明
+# ======
+#
+# 最小安装（仅EasyOCR）:
+#   pip install -r requirements.txt
+#
+# 完整安装（包含PaddleOCR）:
+#   pip install -r requirements.txt
+#
+# 仅安装核心依赖:
+#   pip install easyocr Pillow
+#
+# 注意事项
+# =========
+# - EasyOCR首次运行会自动下载中文模型（约100MB）
+# - PaddleOCR首次运行会自动下载模型（约200MB）
+# - 如需GPU加速，请安装CUDA版本的PyTorch
