@@ -11,7 +11,7 @@ python auto_answer_loop.py
 ctrl+c退出程序
 ## 文件说明
 - `auto_answer_loop.py`为主程序，实现主要控制逻辑；
-- - `ocr.py`实现题目提取逻辑，`search.py`实现混合检索逻辑；
+- `ocr.py`实现题目提取逻辑，`search.py`实现混合检索逻辑；
 - `config.json`记录配置变量，使用前先根据实际情况修改该文件中的`adb_path`和`question_region`两个参数；其中`adb_path`为你实际使用的模拟器路径下的adb可执行程序路径，`question_region`为全屏截屏后题目文字所在的区域，可以根据自身情况手动调整；
 - `test_crop.py`可运行此文件获取上述截图的最佳参数；该文件输入为全屏截屏的路径，通过在终端输入修改后的参数可以实时查看当前参数对应的区域，可以反复调整；
 - `qa_bank.json`为完整题库。
